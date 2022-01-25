@@ -1,5 +1,6 @@
 const path = require("path");
 const webpack = require("webpack");
+const Dotenv = require("dotenv-webpack");
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const WorkboxPlugin = require("workbox-webpack-plugin");
 
@@ -26,5 +27,6 @@ module.exports = {
       favicon: "./src/favicon.png",
     }),
     new WorkboxPlugin.GenerateSW(),
+    new Dotenv(),
   ],
 };
