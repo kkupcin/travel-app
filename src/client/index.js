@@ -13,7 +13,6 @@ import {
   isCityValid,
 } from "./js/app.js";
 import { submitEventListener } from "./js/eventListener.js";
-require("dotenv").config();
 
 export {
   submitEventListener,
