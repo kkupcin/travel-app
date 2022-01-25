@@ -27,6 +27,6 @@ module.exports = {
       favicon: "./src/favicon.png",
     }),
     new WorkboxPlugin.GenerateSW(),
-    new Dotenv(),
+    new Dotenv({ systemvars: true }),
   ],
 };
