@@ -54,12 +54,14 @@ const submitEventListener = generateButton.addEventListener(
     }
 
     //Posting user data to the server
-    await postData("http://localhost:8000/postData", {
+    await postData("https://pure-woodland-51947.herokuapp.com//postData", {
       city: geonamesInfo[0].name,
       country: geonamesInfo[0].countryName,
       date: travelDate,
     });
-    const data = await getData("http://localhost:8000/getData");
+    const data = await getData(
+      "https://pure-woodland-51947.herokuapp.com//getData"
+    );
 
     //Updating UI
     updateLocation(data.city, data.country, data.date);

@@ -1,5 +1,31 @@
-import './styles/style.scss'
-import { fetchCities, getData, postData, updateLocation, updateWeather, isDateValid, updateImage, isResponseValid, fetchImage, fetchWeather, isCityValid } from './js/app.js'
-import { submitEventListener } from './js/eventListener.js'
+import "./styles/style.scss";
+import {
+  fetchCities,
+  getData,
+  postData,
+  updateLocation,
+  updateWeather,
+  isDateValid,
+  updateImage,
+  isResponseValid,
+  fetchImage,
+  fetchWeather,
+  isCityValid,
+} from "./js/app.js";
+import { submitEventListener } from "./js/eventListener.js";
+require("dotenv").config();
 
-export { submitEventListener, fetchCities, getData, postData, updateLocation, updateWeather, isDateValid, updateImage, isResponseValid, fetchImage, fetchWeather, isCityValid }
+export {
+  submitEventListener,
+  fetchCities,
+  getData,
+  postData,
+  updateLocation,
+  updateWeather,
+  isDateValid,
+  updateImage,
+  isResponseValid,
+  fetchImage,
+  fetchWeather,
+  isCityValid,
+};
