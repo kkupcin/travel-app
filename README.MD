@@ -4,6 +4,8 @@ This is the Capstone project for the Udacity Front End Developer Nanodegree.
 
 ## Description
 
+[View Live Demo](https://travel-app.kkupcin.com/)
+
 The website allows the user to enter a city and a date, calling relevant APIs and changing the background image and weather information on the screen.
 
 ### APIs used:
